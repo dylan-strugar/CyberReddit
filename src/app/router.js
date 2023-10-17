@@ -2,7 +2,6 @@ import React from "react";
 import { Route, createBrowserRouter, createRoutesFromElements } from "react-router-dom";
 import App from "../App";
 import { Postbox } from "../features/Postbox/Postbox";
-import { trendingBarType } from "../features/trendingbar/trendingBarSlice";
 
 
 const router = createBrowserRouter(
